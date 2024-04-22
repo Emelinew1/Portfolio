@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: 'open-sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  h1, h2, h3, button {
+    margin-bottom: 0;
+    font-family: 'dancing script', cursive;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+ 

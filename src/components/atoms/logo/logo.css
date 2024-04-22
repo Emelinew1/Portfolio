@@ -1,5 +1,8 @@
 [alt="Logo écrit Emeline Wulstecke"] {
-    height: 160px;
+    width: 160px;
+    align-self: center;
+    padding-left: 10px;
+
   
     @media (min-width: 768px) {
       height: 190px;

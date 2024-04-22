@@ -1,5 +1,5 @@
-
-import bannerImg from '../../../assets/banner.webp'
+import './banner.css'
+import bannerImg from '../../../assets/img/banner.webp'
 
 
 const Banner = () => {
