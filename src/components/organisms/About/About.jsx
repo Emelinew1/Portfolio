@@ -1,6 +1,6 @@
 import './about.css'
 import AboutImg from '../../../assets/img/about.webp'
-import Button from './../molecules/Button/Button'
+import Button from '../../molecules/Button/Button'
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
             <figure>
                 <img src={AboutImg} alt="image avec des photos de profil de face et de dos d'Emeline"></img>
             </figure>
-            <Button/>
+            <Button text="Know me"/> 
         </section>
     )
 }
