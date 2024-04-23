@@ -16,84 +16,130 @@
             "alt": "Portrait of Emeline Wulstecke"
         }
     ],
-
     "links": [
         {
             "name": "Linkedin",
-            "image": "",
+            "icon": "fa-brands fa-linkedin",
             "alt": "Logo Linkedin",
-            "url": "https://www.linkedin.com/in/emeline-wulstecke/"
+            "url": "https://www.linkedin.com/in/emeline-wulstecke-b8043010b/"
         },
         {
             "name": "Github",
-            "image": "",
+            "icon": "fa-brands fa-github",
             "alt": "Logo Github",
-            "url": "https://github.com/EmelineWulstecke"
+            "url": "https://github.com/Emelinew1"
         }
     ],
-
     "skills": [
         {
-            "name": "React",
-            "image": "",
+            "img": "../../public/html.png",
+            "alt": "Logo HTML",
+            "url": "https://developer.mozilla.org/fr/docs/Web/HTML"
+        },
+        {
+            "img": "../../public/css.png",
+            "alt": "Logo CSS",
+            "url": "https://developer.mozilla.org/fr/docs/Web/CSS"
+        },
+        {
+            "img": "../../public/sass.png",
+            "alt": "Logo Saas",
+            "url": "https://sass-lang.com/"
+        },
+        {
+            "img": "../../public/js.png",
+            "alt": "Logo JavaScript",
+            "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+        },
+        {
+            "img": "../../public/react.png",
             "alt": "Logo React",
-            "url": "https://reactjs.org/"
+            "url": "https://fr.react.dev/"
+        },
+        {
+            "img": "../../public/redux.png",
+            "alt": "Logo Redux",
+            "url": "https://react-redux.js.org/"
+        },
+        {
+            "img": "../../public/vite.png",
+            "alt": "Logo vite",
+            "url": "https://v3.vitejs.dev/guide/"
+        },
+        {
+            "img": "../../public/mongodb.png",
+            "alt": "Logo mongodb",
+            "url": "https://www.mongodb.com/"
+        },
+        {
+            "img": "../../public/npm.png",
+            "alt": "Logo npm",
+            "url": "https://www.npmjs.com/"
+        },
+        {
+            "img": "../../public/figma.png",
+            "alt": "Logo Figma",
+            "url": "https://www.figma.com/fr/"
+        },
+        {
+            "img": "../../public/node.png",
+            "alt": "Logo Node",
+            "url": "https://nodejs.org/en"
+        },
+        {
+            "img": "../../public/agile.png",
+            "alt": "Logo agile",
+            "url": "https://manifesteagile.fr/"
         }
     ],
-
     "portfolio": [
         {
             "name": "Booki",
             "texte": "Intégration de la maquette d'un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix avec du code HTML et CSS.",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": "https://emelinew1.github.io/Booki/"
         },
-
         {
             "name": "Oh my food",
             "texte": "Amélioration de l'interface d'un site mobile avec des animations SASS",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": "https://emelinew1.github.io/OhMyFood/"
         },
-
         {
             "name": "Print it",
             "texte": "Initiation au langage JavaScript en me chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": "https://emelinew1.github.io/P5-print_it/"
         },
-
         {
             "name": "Sophie Bluel",
             "texte": "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": ""
         },
-
         {
             "name": "Kasa",
             "texte": "Implémentation du front-end d’une application de logement en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": ""
         },
-
         {
             "name": "724 Event",
             "texte": "Ce projet m'a permis de débugger et de finaliser le développement d'un site événementiel one-page.",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": ""
         },
         {
             "name": "ArgentBank",
             "texte": "Dans ce projet, j'ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. Ma mission principale était d'intégrer le front-end avec le back-end via des appels API. J'ai également écrit des appels à l'API REST pour connecter les deux parties de l'application, assurant une communication fluide entre le client et le serveur.",
             "image": "",
-            "alt":"",
+            "alt": "",
             "url": "URL_du_projet"
         }
     ]

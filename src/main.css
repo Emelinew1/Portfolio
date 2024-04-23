@@ -12,8 +12,10 @@ ul {
 }
 
 h2 {
+  margin: 0;
+  padding: 20px;
   color: var(--secondary-color);
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .sr-only {

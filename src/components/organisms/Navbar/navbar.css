@@ -1,7 +1,15 @@
 [id='nav'] {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 5px 20px;
+
+    h1 {
+        margin: 0;
+        padding-bottom: 30px;
+        font-size: 24px;
+        font-weight: 600;
+    }
 
     section {
         display: flex;
