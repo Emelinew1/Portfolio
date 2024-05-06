@@ -104,51 +104,51 @@
         {
             "name": "Booki",
             "texte": "Intégration de la maquette d'un site qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix avec du code HTML et CSS.",
-            "image": "",
-            "alt": "",
-            "url": "https://emelinew1.github.io/Booki/"
+            "image": "/projets/booki.webp",
+            "alt": "image du site web Booki, d'activités & d'hébergements",
+            "url": "https://booki-ew.vercel.app/"
         },
         {
             "name": "Oh my food",
             "texte": "Amélioration de l'interface d'un site mobile avec des animations SASS",
-            "image": "",
-            "alt": "",
+            "image": "/projets/ohmyfood.webp",
+            "alt": "image du site web Oh my food, de restauration",
             "url": "https://emelinew1.github.io/OhMyFood/"
         },
         {
             "name": "Print it",
             "texte": "Initiation au langage JavaScript en me chargeant de dynamiser le site internet statique d'une imprimerie en y ajoutant un carrousel interactif.",
-            "image": "",
-            "alt": "",
-            "url": "https://emelinew1.github.io/P5-print_it/"
+            "image": "/projets/printit.webp",
+            "alt": "image du site web print it, site d'impression",
+            "url": "https://print-it-ew.vercel.app/"
         },
         {
             "name": "Sophie Bluel",
             "texte": "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
-            "image": "",
-            "alt": "",
-            "url": ""
+            "image": "/projets/sophiebluel.webp",
+            "alt": "image portrait de Sophie Bluel",
+            "url": "https://github.com/Emeline-Wulstecke/P6-Sophie_Buel"
         },
         {
             "name": "Kasa",
             "texte": "Implémentation du front-end d’une application de logement en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
-            "image": "",
-            "alt": "",
-            "url": ""
+            "image": "/projets/kasa.webp",
+            "alt": "image du site Kasa, application de logement",
+            "url": "https://kasa-ew.vercel.app/"
         },
         {
             "name": "724 Event",
             "texte": "Ce projet m'a permis de débugger et de finaliser le développement d'un site événementiel one-page.",
-            "image": "",
-            "alt": "",
-            "url": ""
+            "image": "/projets/724event.webp",
+            "alt": "image du site 724 event, site d'évènement",
+            "url": "https://724events-ew.vercel.app/"
         },
         {
             "name": "ArgentBank",
             "texte": "Dans ce projet, j'ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. Ma mission principale était d'intégrer le front-end avec le back-end via des appels API. J'ai également écrit des appels à l'API REST pour connecter les deux parties de l'application, assurant une communication fluide entre le client et le serveur.",
-            "image": "",
-            "alt": "",
-            "url": "URL_du_projet"
+            "image": "/projets/argentbank.webp",
+            "alt": "image du site ArgentBank",
+            "url": "https://github.com/Emeline-Wulstecke/ArgentBank"
         }
     ]
 }

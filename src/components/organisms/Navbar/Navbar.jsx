@@ -12,8 +12,8 @@ const Navbar = () => {
         <section>
           <ul className='list'>
             <li><a href="#about">About me</a></li>
+            <li><a href='#portfolio'>Portfolio</a></li>
             <li><a href='#skills'>Skills</a></li>
-            <li>Portfolio </li>
             <li>Contact</li>
           </ul>
           <ul>
@@ -22,6 +22,7 @@ const Navbar = () => {
             ))}
           </ul>
         </section>
+
       </nav>
     </header>
 
