@@ -7,6 +7,7 @@ import Banner from './components/molecules/Banner/Banner'
 import Navbar from './components/organisms/Navbar/Navbar'
 import About from './components/organisms/About/About'
 import Skills from './components/organisms/Skills/Skills'
+import Portfolio from './components/organisms/Portfolio/Portfolio'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar/>
     <Banner/>
     <About/>
+    <Portfolio/>
     <Skills/>
   </React.StrictMode>,
 )

@@ -1,16 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 body {
-    font-family: 'open-sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  @media (min-width: 767px) {
+    font-size: 18px;
   }
-  
-  h1, h2, h3 {
-    margin-bottom: 0;
-    font-family: 'dancing script', cursive;
+
+  @media (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  font-size: 12px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.5;
+
+  @media (min-width: 767px) {
+    top: 65%;
+    left: 38%;
+    font-size: 18px;
+    letter-spacing: 10px;
+    line-height: 1.5;
+
+  }
+
+  @media (min-width: 1200px) {
+    top: 50%;
+    left: 42%;
     font-size: 24px;
-    font-weight: 600;
   }
-  
- 
+}
+
+h2,
+h3 {
+  margin-bottom: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+
+
+  @media (min-width: 767px) {
+    font-size: 26px;
+  }
+
+}

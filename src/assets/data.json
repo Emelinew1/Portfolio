@@ -32,64 +32,72 @@
     ],
     "skills": [
         {
-            "img": "../../public/html.png",
+            "name": "HTML",
+            "img": "/logo/html.webp",
             "alt": "Logo HTML",
-            "url": "https://developer.mozilla.org/fr/docs/Web/HTML"
+            "url": "https://developer.mozilla.org/fr/docs/Web/HTML",
+            "category": "Front"
         },
         {
-            "img": "../../public/css.png",
+            "img": "/logo/css.webp",
             "alt": "Logo CSS",
-            "url": "https://developer.mozilla.org/fr/docs/Web/CSS"
+            "url": "https://developer.mozilla.org/fr/docs/Web/CSS",
+            "category": "Front"
         },
         {
-            "img": "../../public/sass.png",
+            "img": "/logo/sass.webp",
             "alt": "Logo Saas",
-            "url": "https://sass-lang.com/"
+            "url": "https://sass-lang.com/",
+            "category": "Front"
         },
         {
-            "img": "../../public/js.png",
+            "img": "/logo/js.webp",
             "alt": "Logo JavaScript",
-            "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+            "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript",
+            "category": "Front"
         },
         {
-            "img": "../../public/react.png",
+            "img": "/logo/react.webp",
             "alt": "Logo React",
-            "url": "https://fr.react.dev/"
+            "url": "https://fr.react.dev/",
+            "category": "Front"
         },
         {
-            "img": "../../public/redux.png",
+            "img": "logo/redux.webp",
             "alt": "Logo Redux",
-            "url": "https://react-redux.js.org/"
+            "url": "https://react-redux.js.org/",
+            "category": "Front"
         },
         {
-            "img": "../../public/vite.png",
+            "img": "/logo/vite.webp",
             "alt": "Logo vite",
-            "url": "https://v3.vitejs.dev/guide/"
+            "url": "https://v3.vitejs.dev/guide/",
+            "category": "Front"
         },
         {
-            "img": "../../public/mongodb.png",
+            "img": "/logo/mongodb.webp",
             "alt": "Logo mongodb",
-            "url": "https://www.mongodb.com/"
+            "url": "https://www.mongodb.com/",
+            "category": "Autres"
         },
         {
-            "img": "../../public/npm.png",
-            "alt": "Logo npm",
-            "url": "https://www.npmjs.com/"
-        },
-        {
-            "img": "../../public/figma.png",
+            "img": "/logo/figma.webp",
             "alt": "Logo Figma",
-            "url": "https://www.figma.com/fr/"
+            "url": "https://www.figma.com/fr/",
+            "category": "Autres"
         },
+       
         {
-            "img": "../../public/node.png",
-            "alt": "Logo Node",
-            "url": "https://nodejs.org/en"
-        },
-        {
-            "img": "../../public/agile.png",
+            "img": "/logo/agile.webp",
             "alt": "Logo agile",
-            "url": "https://manifesteagile.fr/"
+            "url": "https://manifesteagile.fr/",
+            "category": "Autres"
+        },
+        {
+            "img": "/logo/seo.webp",
+            "alt": "Logo SEO",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr",
+            "category": "Autres"
         }
     ],
     "portfolio": [
