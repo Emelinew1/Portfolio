@@ -20,7 +20,7 @@ const About = () => {
         <section id='about'>
             <h2>About me</h2>
             <figure>
-                <img src={AboutImg} alt="image avec des photos de profil de face et de dos d'Emeline" />
+                <img src={AboutImg} alt="image avec des photos de profil de face et de dos d'Emeline" loading='lazy'/>
                 <figcaption>
                     <Button text="Qui suis-je ?" onClick={openModal} />
                 </figcaption>
@@ -31,7 +31,7 @@ const About = () => {
                     <article id='modal'>
                         <h3>Qui suis-je?</h3>
                         <figure>
-                            <img src={Fleur} alt="dessin d'une fleur" />
+                            <img src={Fleur} alt="dessin d'une fleur" loading='lazy'/>
                             <figcaption>
                                 Hello moi c'est Emeline et je réside à Lille. Maman d'une fille merveilleuse & passionnée de voyages. Anciennement photographe, j'ai eu le privilège de saisir des instants uniques, des récits et des émotions à travers l'objectif de mon appareil. À l'âge de 32 ans, j'ai entrepris une nouvelle aventure en plongeant dans le monde du développement web. Pour moi, chaque ligne de code représente une nouvelle destination à explorer, une nouvelle histoire à écrire.<br /><br />
 

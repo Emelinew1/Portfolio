@@ -4,7 +4,7 @@ import './logo.css'
 const Logo = () => {
 
   return (
-    <img src={logo} alt="Logo écrit Emeline Wulstecke" />
+    <img src={logo} alt="Logo écrit Emeline Wulstecke" loading='lazy' />
   )
 }
 
