@@ -114,7 +114,8 @@
             "texte": "Amélioration de l'interface d'un site mobile avec des animations SASS",
             "image": "/projets/ohmyfood.webp",
             "alt": "image du site web Oh my food, de restauration",
-            "url": "https://emelinew1.github.io/OhMyFood/",
+            "url": "https://oh-my-food-ew.vercel.app/",
+            "github": "https://github.com/Emeline-Wulstecke/OhMyFood",
             "category": "HTML | CSS | SASS"
         },
         {
@@ -124,6 +125,7 @@
             "image": "/projets/sophiebluel.webp",
             "alt": "image portrait de Sophie Bluel",
             "url": "https://github.com/Emeline-Wulstecke/P6-Sophie_Buel",
+            "github": "https://github.com/Emeline-Wulstecke/P6-Sophie_Buel",
             "category": "HTML | CSS | JS"
         },
         {
@@ -133,6 +135,7 @@
             "image": "/projets/kasa.webp",
             "alt": "image du site Kasa, application de logement",
             "url": "https://kasa-ew.vercel.app/",
+            "github": "https://github.com/Emeline-Wulstecke/P8_Kasa",
             "category": "HTML | CSS | REACT"
         },
 
@@ -143,6 +146,7 @@
             "image": "/projets/ninacarducci.webp",
             "alt": "image du site Nina Carducci",
             "url": "https://nina-carducci-ew.vercel.app/",
+            "github": "https://github.com/Emeline-Wulstecke/P9_Nina_Carducci",
             "category": "SEO | Performance"
         },
         {
@@ -152,6 +156,7 @@
             "image": "/projets/724.webp",
             "alt": "image du site 724 event, site d'évènement",
             "url": "https://724events-ew.vercel.app/",
+            "github": "https://github.com/Emeline-Wulstecke/P10_724_DEBUG",
             "category": "Tests Unitaires, fonctionnels & d'intégration"
         },
         
@@ -162,6 +167,7 @@
             "image": "/projets/argentbank.webp",
             "alt": "image du site ArgentBank",
             "url": "https://github.com/Emeline-Wulstecke/ArgentBank",
+            "github": "https://github.com/Emeline-Wulstecke/ArgentBank",
             "category": "HTML| CSS | REACT REDUX"
         }
     ]
