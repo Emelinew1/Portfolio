@@ -12,7 +12,7 @@ const Skills = () => {
         <article
             id='skills'>
             <h2>Skills</h2>
-            <p>I look forward to applying my acquired skills to exciting projects and continuing to learn and grow in this stimulating field.
+            <p> J'ai hâte d'appliquer mes compétences acquises à des projets passionnants et de continuer à apprendre et à évoluer dans ce domaine stimulant.
             </p>
             <div className="container">
 

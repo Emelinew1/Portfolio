@@ -1,12 +1,14 @@
 import './portfolio.css';
+import Carrousel from '../../molecules/Carrousel/Carrousel';
 
 const Portfolio = () => {
 
     return (
         <section
             id='portfolio'>
-            <h2>Portfolio</h2>
-            <p>Here are some of my projects</p>
+            <h2>Portfolio</h2>  
+            <Carrousel/>
+           
         </section>
     );
 }

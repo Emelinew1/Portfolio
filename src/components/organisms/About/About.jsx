@@ -22,20 +22,22 @@ const About = () => {
             <figure>
                 <img src={AboutImg} alt="image avec des photos de profil de face et de dos d'Emeline" />
                 <figcaption>
-                    <Button text="Who I am ?" onClick={openModal} />
+                    <Button text="Qui suis-je ?" onClick={openModal} />
                 </figcaption>
             </figure>
 
             {modalOpen && (
                 <Modal isOpen={modalOpen} onClose={closeModal}>
-                    <article id='modal'>   
-                        <h3>Who I am ?</h3>
+                    <article id='modal'>
+                        <h3>Qui suis-je?</h3>
                         <figure>
                             <img src={Fleur} alt="dessin d'une fleur" />
                             <figcaption>
-                                Hello, I'm Emeline, a junior web integrator/developer with a passion for travel. Formerly a photographer, I captured moments, stories, and emotions through the lens of my camera. At 32, I embarked on a new adventure, a dive into the world of web development, where every line of code is a new destination to explore, a new story to write.<br /><br />
-                                That's why I was drawn towards an intense training course on OpenClassrooms, where I learned how to model interfaces, play with colors, and shapes to create captivating user experiences.<br /><br />
-                                I am looking for a job where I can continue to learn and grow professionally, in a dynamic and stimulating environment. Convinced that web development is a field where learning is endless and each project an opportunity, I am ready to fully commit and bring my creativity and enthusiasm to every task. I am looking for a team where a spirit of collaboration prevails, allowing everyone to flourish and express themselves freely.
+                                Hello moi c'est Emeline et je réside à Lille. Maman d'une fille merveilleuse & passionnée de voyages. Anciennement photographe, j'ai eu le privilège de saisir des instants uniques, des récits et des émotions à travers l'objectif de mon appareil. À l'âge de 32 ans, j'ai entrepris une nouvelle aventure en plongeant dans le monde du développement web. Pour moi, chaque ligne de code représente une nouvelle destination à explorer, une nouvelle histoire à écrire.
+
+                                C'est ainsi que je me suis engagée dans une formation intensive sur OpenClassrooms, où j'ai acquis des compétences pour façonner des interfaces et créer des expériences utilisateur captivantes en jouant avec les couleurs et les formes.
+
+                                Je suis à la recherche d'un poste de développeuse web junior qui me permettra de continuer à apprendre et à évoluer professionnellement dans un environnement dynamique et stimulant. Je suis convaincue que le développement web est un domaine où l'apprentissage est infini, chaque projet représentant une nouvelle opportunité. J'ai hâte de découvrir de nouvelles techniques et de contribuer pleinement à chaque mission qui me sera confiée. Je suis prête à apporter ma créativité et ma passion, et je recherche une équipe où règne un esprit de collaboration, permettant à chacun de s'épanouir et de s'exprimer librement.
                             </figcaption>
                         </figure>
                     </article>
