@@ -14,7 +14,7 @@ const Navbar = () => {
             <li><a href="#about">About me</a></li>
             <li><a href='#portfolio'>Portfolio</a></li>
             <li><a href='#skills'>Skills</a></li>
-            <li>Contact</li>
+            <li><a href='#footer'>Contact</a></li>
           </ul>
           <ul>
             {data.links.map((link, index) => (

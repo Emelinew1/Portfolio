@@ -25,7 +25,7 @@ const Skills = () => {
                             <li key={index}>
                                 <Link url={skill.url} content={
                                     <figure>
-                                        <img src={skill.img} alt={skill.alt} />
+                                        <img src={skill.img} alt={skill.alt} loading='lazy'/>
                                     </figure>
                                 } />
                             </li>
@@ -42,7 +42,7 @@ const Skills = () => {
                             <li key={index}>
                                 <Link url={skill.url} content={
                                     <figure>
-                                        <img src={skill.img} alt={skill.alt} />
+                                        <img src={skill.img} alt={skill.alt} loading='lazy'/>
                                     </figure>
                                 } />
                             </li>

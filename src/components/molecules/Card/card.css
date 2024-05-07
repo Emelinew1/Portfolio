@@ -8,7 +8,8 @@
     background-color: var(--primary-color);
 
     img {
-        width: 350px;
+        width: 282px;
+        height: 256px;
         border-radius: 20px 20px 0 0;
     }
 
@@ -18,9 +19,12 @@
         align-items: center;
         width: 100%;
     }
+
     H3 {
+        margin:5px;
         color: var(--secondary-color);
     }
+
     p {
         padding: 10px;
         border: 1px solid black;

@@ -7,7 +7,7 @@ const Card = ({ project, onCardClick }) => {
 
     return (
         <figure id="card" onClick={onCardClick}>
-            <img src={image} alt={alt} />
+            <img src={image} alt={alt} loading='lazy' />
             <figcaption>
                 <h3>{name}</h3>
                 <p>{category}</p>

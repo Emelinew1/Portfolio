@@ -6,9 +6,8 @@ const Portfolio = () => {
     return (
         <section
             id='portfolio'>
-            <h2>Portfolio</h2>  
-            <Carrousel/>
-           
+            <h2>Portfolio</h2>
+            <Carrousel />
         </section>
     );
 }
