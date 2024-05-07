@@ -12,8 +12,6 @@ const Carrousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsPerSlide, setCardsPerSlide] = useState(3);
 
-
-
   const openModal = (projectId) => {
     setSelectedProjectId(projectId);
     setIsModalOpen(true);
@@ -25,17 +23,21 @@ const Carrousel = () => {
   };
 
   const getProjectById = (projectId) => {
-    return portfolio.find(project => project.id === projectId);
+    return portfolio.find((project) => project.id === projectId);
   };
 
   const selectedProject = selectedProjectId ? getProjectById(selectedProjectId) : null;
 
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + cardsPerSlide) % portfolio.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % portfolio.length);
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - cardsPerSlide + portfolio.length) % portfolio.length);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + portfolio.length) % portfolio.length);
+  };
+
+  const handleDotClick = (index) => {
+    setCurrentIndex(index);
   };
 
   const handleResize = () => {
@@ -58,14 +60,34 @@ const Carrousel = () => {
   }, []);
 
   return (
-    <div className="portfolio">
-      <button onClick={prevSlide} className='prev'>{'<'}</button>
-      {[...portfolio, ...portfolio.slice(0, cardsPerSlide - 1)].slice(currentIndex, currentIndex + cardsPerSlide).map((project) => (
-        <Card key={project.id} project={project} onCardClick={() => openModal(project.id)} />
-      ))}
+    <div className="carrousel">
+      <button onClick={prevSlide} className="prev">
+        {'<'}
+      </button>
+      <div className="carrousel-container">
+        {[...portfolio, ...portfolio.slice(0, cardsPerSlide - 1)]
+          .slice(currentIndex, currentIndex + cardsPerSlide)
+          .map((project, index) => (
+            <Card
+              key={project.id}
+              project={project}
+              onCardClick={() => openModal(project.id)}
+              className={index === currentIndex % cardsPerSlide ? 'active' : ''}
+            />
+          ))}
+        <div className="dots">
+          {portfolio.map((_, index) => (
+            <span
+              key={index}
+              className={index === currentIndex % portfolio.length ? 'dot active' : 'dot'}
+              onClick={() => handleDotClick(index)}
+            />
+          ))}
+        </div>
+      </div>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         {selectedProject && (
-          <article className='modal-carrousel'>
+          <article className="modal-carrousel">
             <h3>{selectedProject.name}</h3>
             <p>{selectedProject.texte}</p>
             <div>
@@ -77,8 +99,9 @@ const Carrousel = () => {
           </article>
         )}
       </Modal>
-      <button onClick={nextSlide} className='next'>{'>'}</button>
-
+      <button onClick={nextSlide} className="next">
+        {'>'}
+      </button>
     </div>
   );
 };

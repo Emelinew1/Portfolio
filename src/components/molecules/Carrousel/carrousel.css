@@ -22,13 +22,21 @@
     }
 }
 
-.portfolio {
+.carrousel {
     display: flex;
     padding: 20px;
     padding-top: 0;
 
     @media (min-width: 768px) {
         flex-direction: row;
+    }
+
+    .carrousel-container {
+        display: flex;
+        overflow: hidden;
+         @media (min-width: 768px) {
+            flex-direction: row;
+        }
     }
 
     .next {
@@ -38,8 +46,15 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        border : 1px solid var(--secondary-color);
+        border: 1px solid var(--secondary-color);
         background-color: var(--primary-color);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            transform: scale(1.2);
+        }
 
         @media (min-width: 768px) {
             right: 16px;
@@ -55,8 +70,15 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        border : 1px solid var(--secondary-color);
+        border: 1px solid var(--secondary-color);
         background-color: var(--primary-color);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            transform: scale(1.2);
+        }
 
         @media (min-width: 768px) {
             left: 16px;
