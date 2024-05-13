@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     mimeTypes: {
-      '.*': 'text/javascript'
+      '.js': 'text/javascript'
     }
   }
 })
