@@ -1,5 +1,5 @@
 import './footer.css';
-import Link from '../../atoms/Link/Link';
+import Link from '../../atoms/link/Link';
 import data from '../../../assets/data.json';
 
 

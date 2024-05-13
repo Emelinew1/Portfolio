@@ -1,7 +1,7 @@
 import React from 'react';
 import './skills.css';
 import data from '../../../assets/data.json';
-import Link from '../../atoms/Link/Link';
+import Link from '../../atoms/link/Link';
 
 const Skills = () => {
 
