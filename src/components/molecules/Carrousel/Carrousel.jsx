@@ -6,6 +6,7 @@ import Modal from '../Modal/Modal';
 import Link from '../../atoms/link/Link';
 import Button from '../../atoms/Button/Button';
 
+
 const Carrousel = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProjectId, setSelectedProjectId] = useState(null);
@@ -61,9 +62,16 @@ const Carrousel = () => {
 
   return (
     <div className="carrousel">
-      <button onClick={prevSlide} className="prev">
+      <button
+        onClick={prevSlide}
+        className="prev"
+        aria-label="Prev"
+        tabIndex="0"
+        onKeyDown={(e) => { if (e.key === 'ArrowLeft') prevSlide(); }}
+      >
         {'<'}
       </button>
+
       <div className="carrousel-container">
         {[...portfolio, ...portfolio.slice(0, cardsPerSlide - 1)]
           .slice(currentIndex, currentIndex + cardsPerSlide)
@@ -90,6 +98,16 @@ const Carrousel = () => {
           <article className="modal-carrousel">
             <h3>{selectedProject.name}</h3>
             <p>{selectedProject.texte}</p>
+            <b>{selectedProject.title}</b>
+            <ul>
+              {Object.keys(selectedProject)
+                .filter(key => key.startsWith('objectif'))
+                .map(key => (
+                  <li key={key}>
+                    {selectedProject[key]}</li>
+                ))}
+            </ul>
+
             <div>
               <Link url={selectedProject.url} content={<Button text="Site" />} />
               {selectedProject.github && (
@@ -99,7 +117,13 @@ const Carrousel = () => {
           </article>
         )}
       </Modal>
-      <button onClick={nextSlide} className="next">
+      <button
+        onClick={nextSlide}
+        className="next"
+        aria-label="Next"
+        tabIndex="0"
+        onKeyDown={(e) => { if (e.key === 'ArrowRight') nextSlide(); }}
+      >
         {'>'}
       </button>
     </div>

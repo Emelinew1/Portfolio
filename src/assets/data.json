@@ -33,75 +33,84 @@
     "skills": [
         {
             "name": "HTML",
-            "img": "/logo/html.webp",
+            "img": "./logo/html.webp",
             "alt": "Logo HTML",
             "url": "https://developer.mozilla.org/fr/docs/Web/HTML",
             "category": "Front"
         },
         {
-            "img": "/logo/css.webp",
+            "name": "CSS",
+            "img": "./logo/css.webp",
             "alt": "Logo CSS",
             "url": "https://developer.mozilla.org/fr/docs/Web/CSS",
             "category": "Front"
         },
         {
-            "img": "/logo/sass.webp",
+            "name": "SASS",
+            "img": "./logo/sass.webp",
             "alt": "Logo Saas",
             "url": "https://sass-lang.com/",
             "category": "Front"
         },
         {
-            "img": "/logo/js.webp",
+            "name": "JavaScript",
+            "img": "./logo/js.webp",
             "alt": "Logo JavaScript",
             "url": "https://developer.mozilla.org/fr/docs/Web/JavaScript",
             "category": "Front"
         },
         {
-            "img": "/logo/react.webp",
+            "name": "React",
+            "img": "./logo/react.webp",
             "alt": "Logo React",
             "url": "https://fr.react.dev/",
             "category": "Front"
         },
         {
-            "img": "logo/redux.webp",
+            "name": "Redux",
+            "img": "./logo/redux.webp",
             "alt": "Logo Redux",
             "url": "https://react-redux.js.org/",
             "category": "Front"
         },
         {
-            "img": "/logo/vite.webp",
+            "name": "Vite",
+            "img": "./logo/vite.webp",
             "alt": "Logo vite",
             "url": "https://v3.vitejs.dev/guide/",
             "category": "Front"
         },
         {
-            "img": "/logo/mongodb.webp",
+            "name": "MongoDB",
+            "img": "./logo/mongodb.webp",
             "alt": "Logo mongodb",
             "url": "https://www.mongodb.com/",
             "category": "Autres"
         },
-
         {
-            "img": "/logo/github.webp",
+            "name": "Github",
+            "img": "./logo/github.webp",
             "alt": "Logo Github",
             "url": "https://github.com/Emeline-Wulstecke",
             "category": "Autres"
         },
         {
-            "img": "/logo/figma.webp",
+            "name": "Figma",
+            "img": "./logo/figma.webp",
             "alt": "Logo Figma",
             "url": "https://www.figma.com/fr/",
             "category": "Autres"
         },
-       
         {
-            "img": "/logo/agile.webp",
+            "name": "Méthode Agile",
+            "img": "./logo/agile.webp",
             "alt": "Logo agile",
             "url": "https://manifesteagile.fr/",
             "category": "Autres"
         },
         {
-            "img": "/logo/seo.webp",
+            "name": "SEO",
+            "img": "./logo/seo.webp",
             "alt": "Logo SEO",
             "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr",
             "category": "Autres"
@@ -111,8 +120,12 @@
         {
             "id": 1,
             "name": "Oh my food",
-            "texte": "Amélioration de l'interface d'un site mobile avec des animations SASS",
-            "image": "/projets/ohmyfood.webp",
+            "texte": "Amélioration de l'interface d'un site mobile avec des animations SASS.",
+            "title": "Objectifs pédagogiques:",
+            "objectif1": "Versionner son projet avec Git et Github",
+            "objectif2": "Intégrer une maquette en mobile-first",
+            "objectif3": "Mettre en œuvre des animations CSS",
+            "image": "./projets/ohmyfood.webp",
             "alt": "image du site web Oh my food, de restauration",
             "url": "https://oh-my-food-ew.vercel.app/",
             "github": "https://github.com/Emeline-Wulstecke/OhMyFood",
@@ -122,7 +135,11 @@
             "id": 2,
             "name": "Sophie Bluel",
             "texte": "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
-            "image": "/projets/sophiebluel.webp",
+            "title": "Objectifs pédagogiques:",
+            "objectif1": "Gérer les événements utilisateurs avec JavaScript",
+            "objectif2": "Manipuler les éléments du DOM avec JavaScript",
+            "objectif3": "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+            "image": "./projets/sophiebluel.webp",
             "alt": "image portrait de Sophie Bluel",
             "url": "https://github.com/Emeline-Wulstecke/P6-Sophie_Buel",
             "github": "https://github.com/Emeline-Wulstecke/P6-Sophie_Buel",
@@ -132,18 +149,24 @@
             "id": 3,
             "name": "Kasa",
             "texte": "Implémentation du front-end d’une application de logement en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.",
-            "image": "/projets/kasa.webp",
+            "title": "Objectifs pédagogiques:",
+            "objectif1": "Initialiser une application avec Create React App",
+            "objectif2": "Configurer la navigation entre les pages de l'application avec React Router",
+            "objectif3": "Développer des éléments de l'interface d'un site web grâce à des composants React",
+            "objectif4": "Mettre en œuvre des animations CSS",
+            "image": "./projets/kasa.webp",
             "alt": "image du site Kasa, application de logement",
             "url": "https://kasa-ew.vercel.app/",
             "github": "https://github.com/Emeline-Wulstecke/P8_Kasa",
             "category": "HTML | CSS | REACT"
         },
-
         {
             "id": 4,
             "name": "Nina Carducci",
             "texte": "Optimisation du référencement d’un site de photographe, en améliorant sa performance et son accessibilité.",
-            "image": "/projets/ninacarducci.webp",
+            "title": "Objectifs pédagogiques:",
+            "objectif1": "Optimiser la performance d'un site web",
+            "image": "./projets/ninacarducci.webp",
             "alt": "image du site Nina Carducci",
             "url": "https://nina-carducci-ew.vercel.app/",
             "github": "https://github.com/Emeline-Wulstecke/P9_Nina_Carducci",
@@ -153,18 +176,25 @@
             "id": 5,
             "name": "724 Event",
             "texte": "Ce projet m'a permis de débugger et de finaliser le développement d'un site événementiel one-page.",
-            "image": "/projets/724.webp",
+            "title": "Objectifs pédagogiques:",
+            "objectif1": "Débugger un site web grâce aux Chrome DevTools",
+            "objectif2": "Rédiger un cahier de recette pour tester un site",
+            "objectif3": "Comprendre les différents tests : tests fonctionnels, tests d'intégration, test unitaire",
+            "image": "./projets/724.webp",
             "alt": "image du site 724 event, site d'évènement",
             "url": "https://724events-ew.vercel.app/",
             "github": "https://github.com/Emeline-Wulstecke/P10_724_DEBUG",
             "category": "Tests"
         },
-        
         {
             "id": 6,
             "name": "ArgentBank",
             "texte": "Dans ce projet, j'ai travaillé sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive. Ma mission principale était d'intégrer le front-end avec le back-end via des appels API. J'ai également écrit des appels à l'API REST pour connecter les deux parties de l'application, assurant une communication fluide entre le client et le serveur.",
-            "image": "/projets/argentbank.webp",
+            "title": "Objectifs pédagogiques:",
+            "objectif1": "Configurer des routes API pour la communication client / serveur",
+            "objectif2": "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front",
+            "objectif3": "Afficher les données du back end sur l'interface via des appels API",
+            "image": "./projets/argentbank.webp",
             "alt": "image du site ArgentBank",
             "url": "https://github.com/Emeline-Wulstecke/ArgentBank",
             "github": "https://github.com/Emeline-Wulstecke/ArgentBank",

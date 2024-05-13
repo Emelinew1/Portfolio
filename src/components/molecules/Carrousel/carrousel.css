@@ -1,24 +1,33 @@
 .modal-carrousel {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
     padding: 20px;
 
     h3 {
         color: var(--secondary-color);
+        align-self: center;
     }
 
     p {
-        text-align: left;
-        padding: 10px;
+        text-align: justify;
+    }
+    
+    b {
+        padding-bottom:10px ;
+    }
+ 
+    ul {
+      padding-bottom: 30px;
+      padding-left: 50px;
+      list-style: circle;
     }
 
     div {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 30px;
+        align-self: center;
     }
 }
 
@@ -36,19 +45,21 @@
         overflow: hidden;
          @media (min-width: 768px) {
             flex-direction: row;
+            gap: 20px;
         }
+
     }
 
     .next {
         position: relative;
-        top: 200px;
-        right: 38px;
-        width: 30px;
-        height: 30px;
+        top: 170px;
+        right: -9px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         border: 1px solid var(--secondary-color);
         background-color: var(--primary-color);
-        transition: transform 0.3s ease;
+        transition: transform 0.2s ease;
         cursor: pointer;
 
         &:hover,
@@ -57,7 +68,7 @@
         }
 
         @media (min-width: 768px) {
-            right: 16px;
+            right: 12px;
             width: 50px;
             height: 50px;
         }
@@ -65,14 +76,14 @@
 
     .prev {
         position: relative;
-        top: 200px;
-        left: 38px;
-        width: 30px;
-        height: 30px;
+        top: 170px;
+        left: -8px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
         border: 1px solid var(--secondary-color);
         background-color: var(--primary-color);
-        transition: transform 0.3s ease;
+        transition: transform 0.2s ease;
         cursor: pointer;
 
         &:hover,
@@ -81,7 +92,7 @@
         }
 
         @media (min-width: 768px) {
-            left: 16px;
+            left: -12px;
             width: 50px;
             height: 50px;
         }

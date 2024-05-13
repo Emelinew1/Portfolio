@@ -1,4 +1,3 @@
-import './link.css'
 
 const Link = ({url, content}) => {
   const isExternalLink = url.startsWith('https');

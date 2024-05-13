@@ -10,7 +10,7 @@
         z-index: 1;
         align-items: flex-end;
 
-        @media (min-width: 767px) {
+        @media (min-width: 768px) {
             gap: 20px;
 
         }
@@ -18,7 +18,7 @@
         p {
             font-size: 10px;
 
-            @media (min-width: 767px) {
+            @media (min-width: 768px) {
                 font-size: 14px;
             }
         }
