@@ -3,7 +3,7 @@ import './carrousel.css';
 import { portfolio } from '../../../assets/data.json';
 import Card from '../Card/Card';
 import Modal from '../Modal/Modal';
-import Link from '../../atoms/Link/Link';
+import Link from '../../atoms/link/Link';
 import Button from '../../atoms/Button/Button';
 
 
