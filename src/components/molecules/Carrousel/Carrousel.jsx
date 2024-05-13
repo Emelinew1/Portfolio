@@ -37,9 +37,13 @@ const Carrousel = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + portfolio.length) % portfolio.length);
   };
 
-  const handleDotClick = (index) => {
-    setCurrentIndex(index);
-  };
+ const pressKeydown = (event) => {
+   if (event.key === 'ArrowLeft') {
+     prevSlide();
+   } else if (event.key === 'ArrowRight') {
+     nextSlide();
+   }
+ };
 
   const handleResize = () => {
     const screenWidth = window.innerWidth;
@@ -53,6 +57,7 @@ const Carrousel = () => {
   };
 
   useEffect(() => {
+    document.addEventListener ('keydown', pressKeydown);
     window.addEventListener('resize', handleResize);
     handleResize();
     return () => {
@@ -67,7 +72,6 @@ const Carrousel = () => {
         className="prev"
         aria-label="Prev"
         tabIndex="0"
-        onKeyDown={(e) => { if (e.key === 'ArrowLeft') prevSlide(); }}
       >
         {'<'}
       </button>
@@ -83,15 +87,6 @@ const Carrousel = () => {
               className={index === currentIndex % cardsPerSlide ? 'active' : ''}
             />
           ))}
-        <div className="dots">
-          {portfolio.map((_, index) => (
-            <span
-              key={index}
-              className={index === currentIndex % portfolio.length ? 'dot active' : 'dot'}
-              onClick={() => handleDotClick(index)}
-            />
-          ))}
-        </div>
       </div>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         {selectedProject && (
@@ -122,7 +117,6 @@ const Carrousel = () => {
         className="next"
         aria-label="Next"
         tabIndex="0"
-        onKeyDown={(e) => { if (e.key === 'ArrowRight') nextSlide(); }}
       >
         {'>'}
       </button>
