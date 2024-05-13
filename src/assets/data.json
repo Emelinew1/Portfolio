@@ -30,6 +30,11 @@
             "url": "https://github.com/Emeline-Wulstecke"
         }
     ],
+    "email": {
+        "url": "mailto:emeline.wulstecke@gmail.com",
+        "icon": "fa-regular fa-envelope",
+        "alt": "Email Icon"
+    },
     "skills": [
         {
             "name": "HTML",

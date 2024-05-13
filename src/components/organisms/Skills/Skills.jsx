@@ -46,6 +46,9 @@ const Skills = () => {
                                 <Link url={skill.url} content={
                                     <figure>
                                         <img src={skill.img} alt={skill.alt} loading='lazy'/>
+                                        <figcaption>
+                                        <p>{skill.name}</p>
+                                    </figcaption>
                                     </figure>
                                 } />
                             </li>

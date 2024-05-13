@@ -1,6 +1,36 @@
 [id='footer'] {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     padding: 50px 0;
     background-color: var(--tertiary-color);
+
+    h3 {
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        i {
+            font-size: 22px;
+            color: black;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+
+            &:hover,
+            &:focus {
+                color: var(--primary-color);
+                transform: scale(1.2);
+
+            }
+        }
+    }
+
+    p {
+        font-size: 18px;
+    }
 }

@@ -116,6 +116,7 @@
             height: 400px;
             padding: 0;
             padding-right: 10px;
+            padding-bottom: 40px;
         }
     }
 
@@ -145,50 +146,41 @@
 
     figure {
         display: flex;
-        justify-content: center;
-        position: relative;
-    }
-
-    figcaption {
-        display: flex;
         flex-direction: column;
         align-items: center;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 20px;
-        background-color: rgba(0, 0, 0, 0.7);
-        color: white;
-        border-radius: 0;
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-
-
-        &:hover,
-        &:focus {
-            opacity: 1;
-
-        }
-
-        p {
-            margin: 0;
-            padding: 0;
-            border-radius: 0;
-            width: 100%;
-            background-color: transparent;
-            align-self: center;
-        }
-    }
-
-    img {
-        width: 50px;
-        height: 50px;
+        gap: 5px;
 
         &:hover,
         &:focus {
             cursor: pointer;
             transform: scale(1.2);
+
+            figcaption {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        figcaption {
+            padding: 5px;
+            background-color: var(--tertiary-color);
+            color: black;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+
+            p {
+                align-self: center;
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+                background-color: transparent;
+            }
+
         }
     }
 }
