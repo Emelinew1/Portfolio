@@ -1,6 +1,6 @@
 import './navbar.css';
-import Logo from '../../atoms/logo/logo.jsx'
-import Link from '../../atoms/link/Link.jsx';
+import Logo from '../../atoms/Logo/Logo.jsx'
+import Link from '../../atoms/Link/Link.jsx';
 import data from '../../../assets/data.json'
 
 const Navbar = () => {

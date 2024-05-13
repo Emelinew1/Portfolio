@@ -7,6 +7,7 @@ import About from './components/organisms/About/About'
 import Skills from './components/organisms/Skills/Skills'
 import Portfolio from './components/organisms/Portfolio/Portfolio'
 import Footer from './components/organisms/Footer/Footer'
+import ScrollToTop from './components/atoms/Scroll/ScrollToTop'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <About/>
     <Portfolio/>
     <Skills/>
+    <ScrollToTop/>
     <Footer/>
   </React.StrictMode>,
 )

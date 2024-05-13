@@ -1,0 +1,45 @@
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    @media (min-width: 768px) {
+        right: 20px;
+    }
+  }
+  
+  .scroll-to-top-button:hover {
+    transform: translateY(-10px);
+  }
+  
+  .scroll-to-top-button::after {
+    content: "Revenir en haut";
+    position: absolute;
+    bottom: -42px;
+    left: 40%;
+    transform: translateX(-50%);
+    color:black;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+    @media (min-width: 768px) {
+        left: 50%;
+    }
+  }
+  
+  .scroll-to-top-button:hover::after {
+    opacity: 1;
+  }
+  
+
