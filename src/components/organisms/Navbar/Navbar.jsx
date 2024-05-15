@@ -1,5 +1,5 @@
 import './navbar.css';
-import Logo from '../../atoms/logo/logo.jsx'
+import Logo from '../../atoms/Logo/logo.jsx';
 import Link from '../../atoms/link/Link.jsx';
 import data from '../../../assets/data.json'
 
@@ -14,7 +14,7 @@ const Navbar = () => {
             <li><a href="#about">About me</a></li>
             <li><a href='#portfolio'>Portfolio</a></li>
             <li><a href='#skills'>Skills</a></li>
-            <li><a href='#footer'>Contact</a></li>
+            <li><a href='#contact'>Contact</a></li>
           </ul>
           <ul>
             {data.links.map((link, index) => (
