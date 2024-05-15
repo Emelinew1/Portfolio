@@ -16,6 +16,7 @@
 
         @media (min-width: 1200px) {
             border-top-right-radius: 150px 100px;
+            text-align: center;
         }
     }
 

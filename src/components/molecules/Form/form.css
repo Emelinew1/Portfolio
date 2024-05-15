@@ -1,10 +1,20 @@
 form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    width: 100%;
     padding: 20px;
+    padding-top: 10px;
     gap: 10px;
-    padding-top: 0;
+    box-sizing: border-box;
+
+    @media (min-width: 768px) {
+       padding: 60px 30px 30px 20px; 
+    }
+
+    @media (min-width: 1200px) {
+        padding: 50px 40px 40px 50px; 
+        gap: 20px;
+     }
 
     label {
         color: var(--secondary-color);
@@ -15,17 +25,26 @@ form {
         border: none;
         border-bottom: 1px solid var(--secondary-color);
         background-color: var(--primary-color);
+        
+        @media (min-width: 1200px) {
+            width: 100%; 
+         }
     }
 
     textarea {
         width: 95%;
+        height: auto;
         border: none;
         border-bottom: 1px solid var(--secondary-color);
         background-color: var(--primary-color);
+
+        @media (min-width: 1200px) {
+            width: 100%; 
+         }
     }
 
     input.button {
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 5px;
         width: 50%;
         align-self: center;
@@ -36,9 +55,22 @@ form {
         cursor: pointer;
         transition: transform 0.3s ease;
 
+        @media (min-width: 768px) {
+           margin-top: 40px;
+        }
+
+        @media (min-width: 1200px) {
+            padding: 10px; 
+            width: 40%;
+         }
         &:hover, 
         &:focus {
             transform: scale(1.1);
         }
+    }
+
+    p {
+        color:green;
+        text-align: center;
     }
 }
