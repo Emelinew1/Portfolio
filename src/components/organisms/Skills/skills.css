@@ -166,6 +166,11 @@
             height: 50px;
         }
 
+        .img-more {
+            width: 75px;
+            height: 75px;
+        }
+
         figcaption {
             padding: 5px;
             background-color: var(--tertiary-color);

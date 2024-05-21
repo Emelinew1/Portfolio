@@ -45,7 +45,7 @@ const Skills = () => {
                             <li key={index}>
                                 <Link url={skill.url} content={
                                     <figure>
-                                        <img src={skill.img} alt={skill.alt} loading='lazy'/>
+                                        <img src={skill.img} alt={skill.alt} loading='lazy' className='img-more'/>
                                         <figcaption>
                                         <p>{skill.name}</p>
                                     </figcaption>

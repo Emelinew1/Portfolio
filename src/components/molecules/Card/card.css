@@ -1,43 +1,48 @@
-[id='card'] {
+#card {
+    flex: 1 0 250px;
+    background: var(--primary-color);
+    margin: 1rem;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#card.active {
+    transform: translateY(-15px);
+    box-shadow: 0 1px 1rem -4px #000;
+}
+
+@media (min-width: 1200px) {
+    #card {
+        gap: 10px;
+    }
+}
+
+#card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+#card figcaption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px 20px 0 0;
-    padding: 10px;
     width: 100%;
-    box-sizing: border-box;
-    background-color: var(--primary-color);
-    transition: transform 0.3s ease;
-    cursor: pointer;
+}
 
-    @media (min-width: 1200px) {
-        gap:10px;
-    }
+#card h3 {
+    color: var(--secondary-color);
+    margin: 10px;
+}
 
-    img {
-        width: 300px;
-        height: 200px;
-        border-radius: 20px 20px 0 0;
-        object-fit: cover;
-    }
-
-    figcaption {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    H3 {
-        color: var(--secondary-color);
-        margin: 10px;
-    }
-
-    p {
-        padding: 10px;
-        border: 1px solid black;
-        border-radius: 50% 20% / 10% 40%;
-        align-self: flex-end;
-        font-size: 14px;
-    }
+#card p {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50% 20% / 10% 40%;
+    align-self: flex-end;
+    font-size: 14px;
 }
